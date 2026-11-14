@@ -21,12 +21,13 @@
           }
         },
         "url": {
-          "raw": "https://coe558-calculator.onrender.com/calculate",
+          "raw": "https://coe558-calculator-85620982043.us-central1.run.app/calculate",
           "protocol": "https",
           "host": [
-            "coe558-calculator",
-            "onrender",
-            "com"
+            "coe558-calculator-85620982043",
+            "us-central1",
+            "run",
+            "app"
           ],
           "path": [
             "calculate"
@@ -116,6 +117,557 @@
           "body": "{\n  \"num1\": 10,\n  \"num2\": 5,\n  \"operation\": \"add\",\n  \"result\": 15\n}"
         },
         {
+          "name": "Google Cloud - POST Addition - 200",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"num1\": 10,\r\n  \"num2\": 5,\r\n  \"operation\": \"add\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://coe558-calculator-85620982043.us-central1.run.app/calculate",
+              "protocol": "https",
+              "host": [
+                "coe558-calculator-85620982043",
+                "us-central1",
+                "run",
+                "app"
+              ],
+              "path": [
+                "calculate"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": ":status",
+              "value": "200"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json"
+            },
+            {
+              "key": "x-cloud-trace-context",
+              "value": "641f6825d6e56a3d592c9e251d57ee6f;o=1"
+            },
+            {
+              "key": "date",
+              "value": "Sat, 14 Nov 2026 16:20:40 GMT"
+            },
+            {
+              "key": "server",
+              "value": "Google Frontend"
+            },
+            {
+              "key": "content-length",
+              "value": "57"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"num1\": 10,\n  \"num2\": 5,\n  \"operation\": \"add\",\n  \"result\": 15\n}"
+        }
+      ]
+    },
+    {
+      "name": "POST - Subtraction Success - 200",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"num1\": 10,\r\n  \"num2\": 5,\r\n  \"operation\": \"subtract\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://coe558-calculator-85620982043.us-central1.run.app/calculate",
+          "protocol": "https",
+          "host": [
+            "coe558-calculator-85620982043",
+            "us-central1",
+            "run",
+            "app"
+          ],
+          "path": [
+            "calculate"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "POST - Subtraction Success - 200",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"num1\": 10,\r\n  \"num2\": 5,\r\n  \"operation\": \"subtract\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://127.0.0.1:5000/calculate",
+              "protocol": "http",
+              "host": [
+                "127",
+                "0",
+                "0",
+                "1"
+              ],
+              "port": "5000",
+              "path": [
+                "calculate"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Server",
+              "value": "Werkzeug/3.1.9 Python/3.13.2"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 14 Nov 2026 12:37:04 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "78"
+            },
+            {
+              "key": "Connection",
+              "value": "close"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"num1\": 10,\n  \"num2\": 5,\n  \"operation\": \"subtract\",\n  \"result\": 5\n}"
+        },
+        {
+          "name": "Google Cloud - POST Subtraction - 200",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"num1\": 10,\r\n  \"num2\": 5,\r\n  \"operation\": \"subtract\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://coe558-calculator-85620982043.us-central1.run.app/calculate",
+              "protocol": "https",
+              "host": [
+                "coe558-calculator-85620982043",
+                "us-central1",
+                "run",
+                "app"
+              ],
+              "path": [
+                "calculate"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": ":status",
+              "value": "200"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json"
+            },
+            {
+              "key": "x-cloud-trace-context",
+              "value": "e1f31f3edebcdd7670894c367a1e439e;o=1"
+            },
+            {
+              "key": "date",
+              "value": "Sat, 14 Nov 2026 16:23:45 GMT"
+            },
+            {
+              "key": "server",
+              "value": "Google Frontend"
+            },
+            {
+              "key": "content-length",
+              "value": "61"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"num1\": 10,\n  \"num2\": 5,\n  \"operation\": \"subtract\",\n  \"result\": 5\n}"
+        }
+      ]
+    },
+    {
+      "name": "POST - Multiplication Success - 200",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"num1\": 10,\r\n  \"num2\": 5,\r\n  \"operation\": \"multiply\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://coe558-calculator-85620982043.us-central1.run.app/calculate",
+          "protocol": "https",
+          "host": [
+            "coe558-calculator-85620982043",
+            "us-central1",
+            "run",
+            "app"
+          ],
+          "path": [
+            "calculate"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "POST - Multiplication Success - 200",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"num1\": 10,\r\n  \"num2\": 5,\r\n  \"operation\": \"multiply\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://127.0.0.1:5000/calculate",
+              "protocol": "http",
+              "host": [
+                "127",
+                "0",
+                "0",
+                "1"
+              ],
+              "port": "5000",
+              "path": [
+                "calculate"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Server",
+              "value": "Werkzeug/3.1.9 Python/3.13.2"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 14 Nov 2026 12:39:21 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "79"
+            },
+            {
+              "key": "Connection",
+              "value": "close"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"num1\": 10,\n  \"num2\": 5,\n  \"operation\": \"multiply\",\n  \"result\": 50\n}"
+        },
+        {
+          "name": "Google Cloud - POST Multiplication - 200",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"num1\": 10,\r\n  \"num2\": 5,\r\n  \"operation\": \"multiply\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://coe558-calculator-85620982043.us-central1.run.app/calculate",
+              "protocol": "https",
+              "host": [
+                "coe558-calculator-85620982043",
+                "us-central1",
+                "run",
+                "app"
+              ],
+              "path": [
+                "calculate"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": ":status",
+              "value": "200"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json"
+            },
+            {
+              "key": "x-cloud-trace-context",
+              "value": "3b1f321f8d5be4abcaa984f60f61cbf6;o=1"
+            },
+            {
+              "key": "date",
+              "value": "Sat, 14 Nov 2026 16:25:34 GMT"
+            },
+            {
+              "key": "server",
+              "value": "Google Frontend"
+            },
+            {
+              "key": "content-length",
+              "value": "62"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"num1\": 10,\n  \"num2\": 5,\n  \"operation\": \"multiply\",\n  \"result\": 50\n}"
+        }
+      ]
+    },
+    {
+      "name": "POST - Division Success - 200",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"num1\": 10,\r\n  \"num2\": 5,\r\n  \"operation\": \"divide\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://coe558-calculator-85620982043.us-central1.run.app/calculate",
+          "protocol": "https",
+          "host": [
+            "coe558-calculator-85620982043",
+            "us-central1",
+            "run",
+            "app"
+          ],
+          "path": [
+            "calculate"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "POST - Division Success - 200",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"num1\": 10,\r\n  \"num2\": 5,\r\n  \"operation\": \"divide\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://127.0.0.1:5000/calculate",
+              "protocol": "http",
+              "host": [
+                "127",
+                "0",
+                "0",
+                "1"
+              ],
+              "port": "5000",
+              "path": [
+                "calculate"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Server",
+              "value": "Werkzeug/3.1.9 Python/3.13.2"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 14 Nov 2026 12:40:52 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Length",
+              "value": "76"
+            },
+            {
+              "key": "Connection",
+              "value": "close"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"num1\": 10,\n  \"num2\": 5,\n  \"operation\": \"divide\",\n  \"result\": 2\n}"
+        },
+        {
+          "name": "Google Cloud - POST Division - 200",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"num1\": 10,\r\n  \"num2\": 5,\r\n  \"operation\": \"divide\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://coe558-calculator-85620982043.us-central1.run.app/calculate",
+              "protocol": "https",
+              "host": [
+                "coe558-calculator-85620982043",
+                "us-central1",
+                "run",
+                "app"
+              ],
+              "path": [
+                "calculate"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": ":status",
+              "value": "200"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json"
+            },
+            {
+              "key": "x-cloud-trace-context",
+              "value": "20dfda42f4f6ebd3a7f7c6c58c3b669e;o=1"
+            },
+            {
+              "key": "date",
+              "value": "Sat, 14 Nov 2026 16:27:00 GMT"
+            },
+            {
+              "key": "server",
+              "value": "Google Frontend"
+            },
+            {
+              "key": "content-length",
+              "value": "59"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"num1\": 10,\n  \"num2\": 5,\n  \"operation\": \"divide\",\n  \"result\": 2\n}"
+        }
+      ]
+    },
+    {
+      "name": "POST - Division by Zero - 400",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"num1\": 10,\r\n  \"num2\": 0,\r\n  \"operation\": \"divide\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://coe558-calculator-85620982043.us-central1.run.app/calculate",
+          "protocol": "https",
+          "host": [
+            "coe558-calculator-85620982043",
+            "us-central1",
+            "run",
+            "app"
+          ],
+          "path": [
+            "calculate"
+          ]
+        }
+      },
+      "response": [
+        {
           "name": "POST - Division by Zero - 400",
           "originalRequest": {
             "method": "POST",
@@ -173,6 +725,101 @@
           "body": "{\n  \"error\": \"Division by zero is not allowed\"\n}"
         },
         {
+          "name": "Google Cloud - POST Division by Zero - 400",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"num1\": 10,\r\n  \"num2\": 0,\r\n  \"operation\": \"divide\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://coe558-calculator-85620982043.us-central1.run.app/calculate",
+              "protocol": "https",
+              "host": [
+                "coe558-calculator-85620982043",
+                "us-central1",
+                "run",
+                "app"
+              ],
+              "path": [
+                "calculate"
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": ":status",
+              "value": "400"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json"
+            },
+            {
+              "key": "x-cloud-trace-context",
+              "value": "5102027a4cebfd93a8f856682178e3a0;o=1"
+            },
+            {
+              "key": "date",
+              "value": "Sat, 14 Nov 2026 17:21:30 GMT"
+            },
+            {
+              "key": "server",
+              "value": "Google Frontend"
+            },
+            {
+              "key": "content-length",
+              "value": "44"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"error\": \"Division by zero is not allowed\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "POST - Invalid Input - 400",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"num1\": \"abc\",\r\n  \"num2\": 5,\r\n  \"operation\": \"add\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://coe558-calculator-85620982043.us-central1.run.app/calculate",
+          "protocol": "https",
+          "host": [
+            "coe558-calculator-85620982043",
+            "us-central1",
+            "run",
+            "app"
+          ],
+          "path": [
+            "calculate"
+          ]
+        }
+      },
+      "response": [
+        {
           "name": "POST - Invalid Input - 400",
           "originalRequest": {
             "method": "POST",
@@ -229,6 +876,101 @@
           "cookie": [],
           "body": "{\n  \"error\": \"Invalid numbers or operation\"\n}"
         },
+        {
+          "name": "Google Cloud - POST Invalid Input - 400",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"num1\": \"abc\",\r\n  \"num2\": 5,\r\n  \"operation\": \"add\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://coe558-calculator-85620982043.us-central1.run.app/calculate",
+              "protocol": "https",
+              "host": [
+                "coe558-calculator-85620982043",
+                "us-central1",
+                "run",
+                "app"
+              ],
+              "path": [
+                "calculate"
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": ":status",
+              "value": "400"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json"
+            },
+            {
+              "key": "x-cloud-trace-context",
+              "value": "19efc7490603090666fab0531aef0893;o=1"
+            },
+            {
+              "key": "date",
+              "value": "Sat, 14 Nov 2026 17:23:20 GMT"
+            },
+            {
+              "key": "server",
+              "value": "Google Frontend"
+            },
+            {
+              "key": "content-length",
+              "value": "41"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"error\": \"Invalid numbers or operation\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "PUT - Method Not Allowed - 405",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"num1\": \"abc\",\r\n  \"num2\": 5,\r\n  \"operation\": \"add\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://coe558-calculator-85620982043.us-central1.run.app/calculate",
+          "protocol": "https",
+          "host": [
+            "coe558-calculator-85620982043",
+            "us-central1",
+            "run",
+            "app"
+          ],
+          "path": [
+            "calculate"
+          ]
+        }
+      },
+      "response": [
         {
           "name": "PUT - Method Not Allowed - 405",
           "originalRequest": {
@@ -291,13 +1033,13 @@
           "body": "{\n  \"error\": \"HTTP method not allowed\"\n}"
         },
         {
-          "name": "POST - Subtraction Success - 200",
+          "name": "Google Cloud - PUT Method Not Allowed - 405",
           "originalRequest": {
-            "method": "POST",
+            "method": "PUT",
             "header": [],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n  \"num1\": 10,\r\n  \"num2\": 5,\r\n  \"operation\": \"subtract\"\r\n}",
+              "raw": "{\r\n  \"num1\": \"abc\",\r\n  \"num2\": 5,\r\n  \"operation\": \"add\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -305,337 +1047,60 @@
               }
             },
             "url": {
-              "raw": "http://127.0.0.1:5000/calculate",
-              "protocol": "http",
+              "raw": "https://coe558-calculator-85620982043.us-central1.run.app/calculate",
+              "protocol": "https",
               "host": [
-                "127",
-                "0",
-                "0",
-                "1"
+                "coe558-calculator-85620982043",
+                "us-central1",
+                "run",
+                "app"
               ],
-              "port": "5000",
               "path": [
                 "calculate"
               ]
             }
           },
-          "status": "OK",
-          "code": 200,
+          "status": "Method Not Allowed",
+          "code": 405,
           "_postman_previewlanguage": "json",
           "header": [
             {
-              "key": "Server",
-              "value": "Werkzeug/3.1.9 Python/3.13.2"
+              "key": ":status",
+              "value": "405"
             },
             {
-              "key": "Date",
-              "value": "Sat, 14 Nov 2026 12:37:04 GMT"
-            },
-            {
-              "key": "Content-Type",
+              "key": "content-type",
               "value": "application/json"
             },
             {
-              "key": "Content-Length",
-              "value": "78"
+              "key": "allow",
+              "value": "GET, POST, HEAD, OPTIONS"
             },
             {
-              "key": "Connection",
-              "value": "close"
+              "key": "x-cloud-trace-context",
+              "value": "652fff689e39634b074877b41848d61a;o=1"
+            },
+            {
+              "key": "date",
+              "value": "Sat, 14 Nov 2026 17:24:51 GMT"
+            },
+            {
+              "key": "server",
+              "value": "Google Frontend"
+            },
+            {
+              "key": "content-length",
+              "value": "36"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
             }
           ],
           "cookie": [],
-          "body": "{\n  \"num1\": 10,\n  \"num2\": 5,\n  \"operation\": \"subtract\",\n  \"result\": 5\n}"
-        },
-        {
-          "name": "POST - Multiplication Success - 200",
-          "originalRequest": {
-            "method": "POST",
-            "header": [],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n  \"num1\": 10,\r\n  \"num2\": 5,\r\n  \"operation\": \"multiply\"\r\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            },
-            "url": {
-              "raw": "http://127.0.0.1:5000/calculate",
-              "protocol": "http",
-              "host": [
-                "127",
-                "0",
-                "0",
-                "1"
-              ],
-              "port": "5000",
-              "path": [
-                "calculate"
-              ]
-            }
-          },
-          "status": "OK",
-          "code": 200,
-          "_postman_previewlanguage": "json",
-          "header": [
-            {
-              "key": "Server",
-              "value": "Werkzeug/3.1.9 Python/3.13.2"
-            },
-            {
-              "key": "Date",
-              "value": "Sat, 14 Nov 2026 12:39:21 GMT"
-            },
-            {
-              "key": "Content-Type",
-              "value": "application/json"
-            },
-            {
-              "key": "Content-Length",
-              "value": "79"
-            },
-            {
-              "key": "Connection",
-              "value": "close"
-            }
-          ],
-          "cookie": [],
-          "body": "{\n  \"num1\": 10,\n  \"num2\": 5,\n  \"operation\": \"multiply\",\n  \"result\": 50\n}"
-        },
-        {
-          "name": "POST - Division Success - 200",
-          "originalRequest": {
-            "method": "POST",
-            "header": [],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n  \"num1\": 10,\r\n  \"num2\": 5,\r\n  \"operation\": \"divide\"\r\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            },
-            "url": {
-              "raw": "http://127.0.0.1:5000/calculate",
-              "protocol": "http",
-              "host": [
-                "127",
-                "0",
-                "0",
-                "1"
-              ],
-              "port": "5000",
-              "path": [
-                "calculate"
-              ]
-            }
-          },
-          "status": "OK",
-          "code": 200,
-          "_postman_previewlanguage": "json",
-          "header": [
-            {
-              "key": "Server",
-              "value": "Werkzeug/3.1.9 Python/3.13.2"
-            },
-            {
-              "key": "Date",
-              "value": "Sat, 14 Nov 2026 12:40:52 GMT"
-            },
-            {
-              "key": "Content-Type",
-              "value": "application/json"
-            },
-            {
-              "key": "Content-Length",
-              "value": "76"
-            },
-            {
-              "key": "Connection",
-              "value": "close"
-            }
-          ],
-          "cookie": [],
-          "body": "{\n  \"num1\": 10,\n  \"num2\": 5,\n  \"operation\": \"divide\",\n  \"result\": 2\n}"
+          "body": "{\n  \"error\": \"HTTP method not allowed\"\n}"
         }
       ]
-    },
-    {
-      "name": "POST - Subtraction Success - 200",
-      "request": {
-        "method": "POST",
-        "header": [],
-        "body": {
-          "mode": "raw",
-          "raw": "{\r\n  \"num1\": 10,\r\n  \"num2\": 5,\r\n  \"operation\": \"subtract\"\r\n}",
-          "options": {
-            "raw": {
-              "language": "json"
-            }
-          }
-        },
-        "url": {
-          "raw": "https://coe558-calculator.onrender.com/calculate",
-          "protocol": "https",
-          "host": [
-            "coe558-calculator",
-            "onrender",
-            "com"
-          ],
-          "path": [
-            "calculate"
-          ]
-        }
-      },
-      "response": []
-    },
-    {
-      "name": "POST - Multiplication Success - 200",
-      "request": {
-        "method": "POST",
-        "header": [],
-        "body": {
-          "mode": "raw",
-          "raw": "{\r\n  \"num1\": 10,\r\n  \"num2\": 5,\r\n  \"operation\": \"multiply\"\r\n}",
-          "options": {
-            "raw": {
-              "language": "json"
-            }
-          }
-        },
-        "url": {
-          "raw": "https://coe558-calculator.onrender.com/calculate",
-          "protocol": "https",
-          "host": [
-            "coe558-calculator",
-            "onrender",
-            "com"
-          ],
-          "path": [
-            "calculate"
-          ]
-        }
-      },
-      "response": []
-    },
-    {
-      "name": "POST - Division Success - 200",
-      "request": {
-        "method": "POST",
-        "header": [],
-        "body": {
-          "mode": "raw",
-          "raw": "{\r\n  \"num1\": 10,\r\n  \"num2\": 5,\r\n  \"operation\": \"divide\"\r\n}",
-          "options": {
-            "raw": {
-              "language": "json"
-            }
-          }
-        },
-        "url": {
-          "raw": "https://coe558-calculator.onrender.com/calculate",
-          "protocol": "https",
-          "host": [
-            "coe558-calculator",
-            "onrender",
-            "com"
-          ],
-          "path": [
-            "calculate"
-          ]
-        }
-      },
-      "response": []
-    },
-    {
-      "name": "POST - Division by Zero - 400",
-      "request": {
-        "method": "POST",
-        "header": [],
-        "body": {
-          "mode": "raw",
-          "raw": "{\r\n  \"num1\": 10,\r\n  \"num2\": 0,\r\n  \"operation\": \"divide\"\r\n}",
-          "options": {
-            "raw": {
-              "language": "json"
-            }
-          }
-        },
-        "url": {
-          "raw": "https://coe558-calculator.onrender.com/calculate",
-          "protocol": "https",
-          "host": [
-            "coe558-calculator",
-            "onrender",
-            "com"
-          ],
-          "path": [
-            "calculate"
-          ]
-        }
-      },
-      "response": []
-    },
-    {
-      "name": "POST - Invalid Input - 400",
-      "request": {
-        "method": "POST",
-        "header": [],
-        "body": {
-          "mode": "raw",
-          "raw": "{\r\n  \"num1\": \"abc\",\r\n  \"num2\": 5,\r\n  \"operation\": \"add\"\r\n}",
-          "options": {
-            "raw": {
-              "language": "json"
-            }
-          }
-        },
-        "url": {
-          "raw": "https://coe558-calculator.onrender.com/calculate",
-          "protocol": "https",
-          "host": [
-            "coe558-calculator",
-            "onrender",
-            "com"
-          ],
-          "path": [
-            "calculate"
-          ]
-        }
-      },
-      "response": []
-    },
-    {
-      "name": "PUT - Method Not Allowed - 405",
-      "request": {
-        "method": "PUT",
-        "header": [],
-        "body": {
-          "mode": "raw",
-          "raw": "{\r\n  \"num1\": \"abc\",\r\n  \"num2\": 5,\r\n  \"operation\": \"add\"\r\n}",
-          "options": {
-            "raw": {
-              "language": "json"
-            }
-          }
-        },
-        "url": {
-          "raw": "https://coe558-calculator.onrender.com/calculate",
-          "protocol": "https",
-          "host": [
-            "coe558-calculator",
-            "onrender",
-            "com"
-          ],
-          "path": [
-            "calculate"
-          ]
-        }
-      },
-      "response": []
     },
     {
       "name": "GET - Addition Success - 200",
@@ -643,12 +1108,13 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "https://coe558-calculator.onrender.com/calculate?num1=10&num2=5&operation=add",
+          "raw": "https://coe558-calculator-85620982043.us-central1.run.app/calculate?num1=10&num2=5&operation=add",
           "protocol": "https",
           "host": [
-            "coe558-calculator",
-            "onrender",
-            "com"
+            "coe558-calculator-85620982043",
+            "us-central1",
+            "run",
+            "app"
           ],
           "path": [
             "calculate"
@@ -751,6 +1217,75 @@
             {
               "key": "alt-svc",
               "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"num1\": 10,\n  \"num2\": 5,\n  \"operation\": \"add\",\n  \"result\": 15\n}"
+        },
+        {
+          "name": "Google Cloud - GET Addition - 200",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://coe558-calculator-85620982043.us-central1.run.app/calculate?num1=10&num2=5&operation=add",
+              "protocol": "https",
+              "host": [
+                "coe558-calculator-85620982043",
+                "us-central1",
+                "run",
+                "app"
+              ],
+              "path": [
+                "calculate"
+              ],
+              "query": [
+                {
+                  "key": "num1",
+                  "value": "10"
+                },
+                {
+                  "key": "num2",
+                  "value": "5"
+                },
+                {
+                  "key": "operation",
+                  "value": "add"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": ":status",
+              "value": "200"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json"
+            },
+            {
+              "key": "x-cloud-trace-context",
+              "value": "2e4eaecc9b6481ff0a947988e7e85bcc;o=1"
+            },
+            {
+              "key": "date",
+              "value": "Sat, 14 Nov 2026 17:26:26 GMT"
+            },
+            {
+              "key": "server",
+              "value": "Google Frontend"
+            },
+            {
+              "key": "content-length",
+              "value": "57"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
             }
           ],
           "cookie": [],
