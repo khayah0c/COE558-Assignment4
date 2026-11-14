@@ -21,15 +21,13 @@
           }
         },
         "url": {
-          "raw": "http://127.0.0.1:5000/calculate",
-          "protocol": "http",
+          "raw": "https://coe558-calculator.onrender.com/calculate",
+          "protocol": "https",
           "host": [
-            "127",
-            "0",
-            "0",
-            "1"
+            "coe558-calculator",
+            "onrender",
+            "com"
           ],
-          "port": "5000",
           "path": [
             "calculate"
           ]
@@ -51,43 +49,67 @@
               }
             },
             "url": {
-              "raw": "http://127.0.0.1:5000/calculate",
-              "protocol": "http",
+              "raw": "https://coe558-calculator.onrender.com/calculate",
+              "protocol": "https",
               "host": [
-                "127",
-                "0",
-                "0",
-                "1"
+                "coe558-calculator",
+                "onrender",
+                "com"
               ],
-              "port": "5000",
               "path": [
                 "calculate"
               ]
             }
           },
-          "status": "OK",
-          "code": 200,
           "_postman_previewlanguage": "json",
           "header": [
             {
-              "key": "Server",
-              "value": "Werkzeug/3.1.9 Python/3.13.2"
+              "key": ":status",
+              "value": "200"
             },
             {
-              "key": "Date",
-              "value": "Sat, 14 Nov 2026 11:07:49 GMT"
+              "key": "date",
+              "value": "Sat, 14 Nov 2026 14:28:39 GMT"
             },
             {
-              "key": "Content-Type",
+              "key": "content-type",
               "value": "application/json"
             },
             {
-              "key": "Content-Length",
-              "value": "74"
+              "key": "content-length",
+              "value": "49"
             },
             {
-              "key": "Connection",
-              "value": "close"
+              "key": "content-encoding",
+              "value": "br"
+            },
+            {
+              "key": "rndr-id",
+              "value": "0413f1da-8187-4379"
+            },
+            {
+              "key": "server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "key": "x-render-origin-server",
+              "value": "gunicorn"
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "cf-ray",
+              "value": "a5a6b4325ddfedb0-MXP"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
             }
           ],
           "cookie": [],
@@ -440,6 +462,180 @@
           "body": "{\n  \"num1\": 10,\n  \"num2\": 5,\n  \"operation\": \"divide\",\n  \"result\": 2\n}"
         }
       ]
+    },
+    {
+      "name": "POST - Subtraction Success - 200",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"num1\": 10,\r\n  \"num2\": 5,\r\n  \"operation\": \"subtract\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://coe558-calculator.onrender.com/calculate",
+          "protocol": "https",
+          "host": [
+            "coe558-calculator",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "calculate"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "POST - Multiplication Success - 200",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"num1\": 10,\r\n  \"num2\": 5,\r\n  \"operation\": \"multiply\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://coe558-calculator.onrender.com/calculate",
+          "protocol": "https",
+          "host": [
+            "coe558-calculator",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "calculate"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "POST - Division Success - 200",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"num1\": 10,\r\n  \"num2\": 5,\r\n  \"operation\": \"divide\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://coe558-calculator.onrender.com/calculate",
+          "protocol": "https",
+          "host": [
+            "coe558-calculator",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "calculate"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "POST - Division by Zero - 400",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"num1\": 10,\r\n  \"num2\": 0,\r\n  \"operation\": \"divide\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://coe558-calculator.onrender.com/calculate",
+          "protocol": "https",
+          "host": [
+            "coe558-calculator",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "calculate"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "POST - Invalid Input - 400",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"num1\": \"abc\",\r\n  \"num2\": 5,\r\n  \"operation\": \"add\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://coe558-calculator.onrender.com/calculate",
+          "protocol": "https",
+          "host": [
+            "coe558-calculator",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "calculate"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "PUT - Method Not Allowed - 405",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"num1\": \"abc\",\r\n  \"num2\": 5,\r\n  \"operation\": \"add\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://coe558-calculator.onrender.com/calculate",
+          "protocol": "https",
+          "host": [
+            "coe558-calculator",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "calculate"
+          ]
+        }
+      },
+      "response": []
     }
   ]
 }
