@@ -636,6 +636,127 @@
         }
       },
       "response": []
+    },
+    {
+      "name": "GET - Addition Success - 200",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://coe558-calculator.onrender.com/calculate?num1=10&num2=5&operation=add",
+          "protocol": "https",
+          "host": [
+            "coe558-calculator",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "calculate"
+          ],
+          "query": [
+            {
+              "key": "num1",
+              "value": "10"
+            },
+            {
+              "key": "num2",
+              "value": "5"
+            },
+            {
+              "key": "operation",
+              "value": "add"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "GET - Addition Success - 200",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://coe558-calculator.onrender.com/calculate?num1=10&num2=5&operation=add",
+              "protocol": "https",
+              "host": [
+                "coe558-calculator",
+                "onrender",
+                "com"
+              ],
+              "path": [
+                "calculate"
+              ],
+              "query": [
+                {
+                  "key": "num1",
+                  "value": "10"
+                },
+                {
+                  "key": "num2",
+                  "value": "5"
+                },
+                {
+                  "key": "operation",
+                  "value": "add"
+                }
+              ]
+            }
+          },
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": ":status",
+              "value": "200"
+            },
+            {
+              "key": "date",
+              "value": "Sat, 14 Nov 2026 15:13:11 GMT"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json"
+            },
+            {
+              "key": "content-length",
+              "value": "49"
+            },
+            {
+              "key": "content-encoding",
+              "value": "br"
+            },
+            {
+              "key": "rndr-id",
+              "value": "fb7bc778-3ef3-401b"
+            },
+            {
+              "key": "server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "key": "x-render-origin-server",
+              "value": "gunicorn"
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "cf-ray",
+              "value": "a5a6f56ea83b0d64-MXP"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"num1\": 10,\n  \"num2\": 5,\n  \"operation\": \"add\",\n  \"result\": 15\n}"
+        }
+      ]
     }
   ]
 }
