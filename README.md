@@ -59,6 +59,17 @@ Expected result: 15
 
 ## API Testing
 The REST API was tested using Postman, including successful arithmetic operations and error-handling scenarios.
-## Live Application
+## Live Application — Google Cloud Run
 
-https://coe558-calculator.onrender.com
+Frontend:
+https://coe558-calculator-85620982043.us-central1.run.app/
+
+REST API (GET and POST):
+https://coe558-calculator-85620982043.us-central1.run.app/calculate
+
+GET example:
+https://coe558-calculator-85620982043.us-central1.run.app/calculate?num1=10&num2=5&operation=add
+
+Google Cloud project: kfupm-261-hw4-khayyat
+Cloud Run service: coe558-calculator
+Region: us-central1
